@@ -1,0 +1,4 @@
+FROM amazoncorretto:11-alpine-jdk 
+MAINTAINER FRANCO
+COPY 
+ENTRYPOINT 
