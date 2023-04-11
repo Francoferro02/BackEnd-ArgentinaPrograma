@@ -55,7 +55,6 @@ public class PersonaController {
         return new ResponseEntity(new Mensaje("Persona eliminada"), HttpStatus.OK);
     }
     
-    @PreAuthorize("hasRole('ADMIN')")
     @PostMapping("/create")
     public String save(@RequestBody Persona persona) {
         personaService.save(persona);
